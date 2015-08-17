@@ -4,6 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>basic-basic</artifactId>
 	<name>basic-basic</name>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 
 	<parent>
 		<groupId>org.teng.jdk</groupId>
