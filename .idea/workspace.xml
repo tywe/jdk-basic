@@ -1149,7 +1149,7 @@
       <option name="number" value="00008" />
       <option name="project" value="LOCAL" />
       <updated>1439811455436</updated>
-      <workItem from="1439811455760" duration="1139000" />
+      <workItem from="1439811455760" duration="1157000" />
     </task>
     <task id="LOCAL-00009" summary="忽略logs目录文件">
       <created>1439812200218</created>
@@ -1163,12 +1163,18 @@
       <option name="project" value="LOCAL" />
       <updated>1439812522679</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="删除没用的目录">
+      <created>1439812604717</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1439812604717</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16200000" />
+    <option name="totallyTimeSpent" value="16218000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
