@@ -1,7 +1,10 @@
-package org.teng.basic.string;
+package org.teng.jdk.simple;
 
 /**
- * Created by Administrator on 15-6-13.
+ * 字符串格式化
+ *
+ * @author baichuan
+ * @date 2015-8-16
  */
 public class StringFormatter {
     private static final String PREFIX_FORMATTER = "****-%S-****";

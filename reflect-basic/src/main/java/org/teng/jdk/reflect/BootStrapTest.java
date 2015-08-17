@@ -1,4 +1,4 @@
-package org.teng.jdk.reflect.basic;
+package org.teng.jdk.reflect;
 
 import java.net.URL;
 

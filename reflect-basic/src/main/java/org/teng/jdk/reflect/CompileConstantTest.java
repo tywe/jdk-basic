@@ -1,4 +1,4 @@
-package org.teng.jdk.reflect.basic;
+package org.teng.jdk.reflect;
 
 /**
  * Created by Administrator on 6/14/15.
