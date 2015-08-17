@@ -17,6 +17,49 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for basic-basic" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="basic-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for network-basic" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="network-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for thread-basic" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="thread-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for reflect-basic" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="reflect-basic" />
+      </profile>
+      <profile default="false" name="Annotation profile for io-basic" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="io-basic" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic-basic" target="1.7" />
+      <module name="io-basic" target="1.7" />
+      <module name="jdk-basic" target="1.7" />
+      <module name="network-basic" target="1.7" />
+      <module name="reflect-basic" target="1.7" />
+      <module name="thread-basic" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

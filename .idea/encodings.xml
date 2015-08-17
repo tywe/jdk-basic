@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/basic-basic/src/org/teng/basic/string/StringFormatter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/basic-basic/src/main/java/org/teng/jdk/simple/StringFormatter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/io-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/network-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thread-basic" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
