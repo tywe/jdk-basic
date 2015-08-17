@@ -1,8 +1,8 @@
 package org.teng.jdk.simple.string;
 
 
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.ObjectUtils;
+import org.teng.jdk.simple.collection.CollectionUtils;
+import org.teng.jdk.simple.object.ObjectUtils;
 
 import java.util.*;
 

@@ -28,7 +28,7 @@ public class NumberUtilsTest {
 
     @Test
     public void parseNumberTest(){
-        Byte targetNum = NumberUtils.parseNumber("1000", Byte.class);
+        Byte targetNum = NumberUtils.parseNumber("100", Byte.class);
         logger.debug("targetNum:" + targetNum);
     }
 
