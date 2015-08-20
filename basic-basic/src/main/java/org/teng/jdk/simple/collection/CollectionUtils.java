@@ -16,9 +16,9 @@ package org.teng.jdk.simple.collection;
  * limitations under the License.
  */
 
-import org.springframework.util.Assert;
-import org.springframework.util.MultiValueMap;
-import org.springframework.util.ObjectUtils;
+import org.teng.jdk.simple.exception.Assert;
+import org.teng.jdk.simple.object.ObjectUtils;
+
 
 import java.io.Serializable;
 import java.util.ArrayList;

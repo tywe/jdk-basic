@@ -1,0 +1,9 @@
+<component name="DependencyValidationManager">
+  <state>
+    <unnamed_scope value="src:org.teng.jdk.simple.number..*" />
+    <unnamed_scope value="test:*..*" />
+    <deny_rule from_scope="src:org.teng.jdk.simple.number..*" to_scope="test:*..*" is_deny="true" />
+    <deny_rule from_scope="src:org.teng.jdk.simple.number..*" to_scope="test:*..*" is_deny="true" />
+    <deny_rule from_scope="src:org.teng.jdk.simple.number..*" to_scope="test:*..*" is_deny="true" />
+  </state>
+</component>

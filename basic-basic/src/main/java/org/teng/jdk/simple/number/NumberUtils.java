@@ -1,7 +1,8 @@
 package org.teng.jdk.simple.number;
 
-import org.springframework.util.Assert;
-import org.springframework.util.StringUtils;
+
+import org.teng.jdk.simple.exception.Assert;
+import org.teng.jdk.simple.string.StringUtils;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
