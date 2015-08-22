@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/io-basic/io-basic.iml" filepath="$PROJECT_DIR$/io-basic/io-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdk-basic.iml" filepath="$PROJECT_DIR$/jdk-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/network-basic/network-basic.iml" filepath="$PROJECT_DIR$/network-basic/network-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-basic/pattern-basic.iml" filepath="$PROJECT_DIR$/pattern-basic/pattern-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect-basic/reflect-basic.iml" filepath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-basic/thread-basic.iml" filepath="$PROJECT_DIR$/thread-basic/thread-basic.iml" />
     </modules>
