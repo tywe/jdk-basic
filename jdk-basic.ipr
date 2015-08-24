@@ -100,6 +100,7 @@ under the License.
       <!-- module filepath="$$PROJECT_DIR$$/${pom.artifactId}.iml"/ -->  
       <module filepath="$PROJECT_DIR$/jdk-basic.iml"/>
       <module filepath="$PROJECT_DIR$/basic-basic/basic-basic.iml"/>
+      <module filepath="$PROJECT_DIR$/pattern-basic/pattern-basic.iml"/>
       <module filepath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml"/>
       <module filepath="$PROJECT_DIR$/io-basic/io-basic.iml"/>
       <module filepath="$PROJECT_DIR$/thread-basic/thread-basic.iml"/>

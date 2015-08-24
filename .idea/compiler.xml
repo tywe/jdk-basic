@@ -50,17 +50,16 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="pattern-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="basic-basic" target="1.8" />
-      <module name="io-basic" target="1.8" />
-      <module name="jdk-basic" target="1.8" />
-      <module name="network-basic" target="1.8" />
-      <module name="pattern-basic" target="1.8" />
-      <module name="reflect-basic" target="1.8" />
-      <module name="thread-basic" target="1.8" />
+      <module name="basic-basic" target="1.7" />
+      <module name="io-basic" target="1.7" />
+      <module name="jdk-basic" target="1.7" />
+      <module name="network-basic" target="1.7" />
+      <module name="pattern-basic" target="1.7" />
+      <module name="reflect-basic" target="1.7" />
+      <module name="thread-basic" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -13,6 +13,7 @@
         <module>io-basic</module>
         <module>thread-basic</module>
         <module>network-basic</module>
+        <module>pattern-basic</module>
     </modules>
 
     <build>
@@ -22,8 +23,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.0</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                     <encoding>utf8</encoding>
                 </configuration>
             </plugin>

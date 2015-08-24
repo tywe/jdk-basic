@@ -5,9 +5,6 @@
 	<artifactId>reflect-basic</artifactId>
 	<packaging>pom</packaging>
 	<name>reflect-basic</name>
-	<modules>
-		<module>../pattern-basic</module>
-	</modules>
 
 	<parent>
 		<groupId>org.teng.jdk</groupId>
