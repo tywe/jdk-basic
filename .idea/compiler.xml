@@ -51,6 +51,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for spring-c01" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c01" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-basic" target="1.7" />
@@ -59,6 +66,7 @@
       <module name="network-basic" target="1.7" />
       <module name="pattern-basic" target="1.7" />
       <module name="reflect-basic" target="1.7" />
+      <module name="spring-c01" target="1.7" />
       <module name="thread-basic" target="1.7" />
     </bytecodeTargetLevel>
   </component>

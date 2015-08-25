@@ -1,4 +1,4 @@
-package org.teng.jdk.simple.exception;
+package org.teng.jdk.problems.exception;
 
 /**
  * description:异常处理机制.

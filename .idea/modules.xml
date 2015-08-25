@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/network-basic/network-basic.iml" filepath="$PROJECT_DIR$/network-basic/network-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern-basic/pattern-basic.iml" filepath="$PROJECT_DIR$/pattern-basic/pattern-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect-basic/reflect-basic.iml" filepath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-c01/spring-c01.iml" filepath="$PROJECT_DIR$/spring-c01/spring-c01.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-basic/thread-basic.iml" filepath="$PROJECT_DIR$/thread-basic/thread-basic.iml" />
     </modules>
   </component>
