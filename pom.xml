@@ -19,6 +19,10 @@
         <module>spring-c0202</module>
         <module>spring-c0203</module>
         <module>spring-c0204</module>
+        <module>spring-c0301</module>
+        <module>spring-c0302</module>
+        <module>spring-c0303</module>
+        <module>spring-c0304</module>
     </modules>
 
     <build>
@@ -66,6 +70,19 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.5</version>
+        </dependency>
+
+        <!--数据库依赖配置-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.187</version>
         </dependency>
 
         <!--服务器依赖配置-->

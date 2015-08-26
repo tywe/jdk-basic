@@ -1,82 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="562bf191-9883-4469-88fc-4107051b23cd" name="Default" comment="commit-添加spring-chapter1:依赖注入&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/BlankDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/BlankDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/collections/BlankDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/properties/BlankDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CDConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/properties/CDPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/CDPlayerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CDPlayerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CDPlayerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CDPlayerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/test/java/CDPlayerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/test/java/soundsystem/CDPlayerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/test/java/CDPlayerXMLConfigTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/CNamespaceReferenceTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/CNamespaceReferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/CNamespaceValueTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/CNamespaceValueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/CompactDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CompactDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CompactDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CompactDisc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/ConstructorArgCollectionTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/ConstructorArgCollectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/ConstructorArgReferenceTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/ConstructorArgReferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/ConstructorArgValueTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/ConstructorArgValueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/test/java/soundsystem/ImportJavaConfigTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/test/java/soundsystem/ImportXmlConfigTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_12_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/MediaPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/MediaPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/MediaPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/MediaPlayer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/PNamespaceRefTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PNamespaceRefTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/PNamespaceValueTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PNamespaceValueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/PNamespaceWithUtilNamespaceTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PNamespaceWithUtilNamespaceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/PropertyRefTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PropertyRefTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/soundsystem/PropertyValueTest-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PropertyValueTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/SgtPeppers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/SgtPeppers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/SgtPeppers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/SgtPeppers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/SoundSystemConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/main/resources/META-INF/spring/app-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/resources/cd-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/main/resources/cdplayer-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/test/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/src/test/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/src/test/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/src/test/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/src/main/resources/META-INF/spring/soundsystem.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0201/spring-c0201.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0202/spring-c0202.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0203/spring-c0203.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0204/spring-c0204.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/BraveKnightTest.java" afterPath="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/BraveKnightTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/KnightJavaConfigInjectionTest.java" afterPath="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/KnightJavaConfigInjectionTest.java" />
+    <list default="true" id="562bf191-9883-4469-88fc-4107051b23cd" name="Default" comment="commit-添加spring-chapter2:bean配置&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/main/java/com/soundsystem/BlankDisc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ComponentScannedConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/main/java/com/myapp/DataSourceConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DataSourceConfigTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest_XMLConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithDefaults.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithRequiredProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentInjectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ExplicitConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicExistsCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/src/test/java/com/habuma/restfun/MagicExistsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_187.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/Notepad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest_XMLConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ScopedBeanTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/UniqueThing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/main/resources/com/soundsystem/app.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/main/resources/datasource-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/test/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/src/test/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/test/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/src/test/resources/placeholder-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0302/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/main/resources/schema.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/src/main/resources/scoped-beans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/spring-c0301.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0303/spring-c0303.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0304/spring-c0304.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring-c0301/src/main/resources/test-data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic-basic/basic-basic.iml" afterPath="$PROJECT_DIR$/basic-basic/basic-basic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
@@ -88,6 +57,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml" afterPath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c01/spring-c01.iml" afterPath="$PROJECT_DIR$/spring-c01/spring-c01.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c0201/spring-c0201.iml" afterPath="$PROJECT_DIR$/spring-c0201/spring-c0201.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c0202/spring-c0202.iml" afterPath="$PROJECT_DIR$/spring-c0202/spring-c0202.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c0203/spring-c0203.iml" afterPath="$PROJECT_DIR$/spring-c0203/spring-c0203.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-c0204/spring-c0204.iml" afterPath="$PROJECT_DIR$/spring-c0204/spring-c0204.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread-basic/thread-basic.iml" afterPath="$PROJECT_DIR$/thread-basic/thread-basic.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -108,6 +81,10 @@
     <ignored path="$PROJECT_DIR$/spring-c0202/target/" />
     <ignored path="$PROJECT_DIR$/spring-c0203/target/" />
     <ignored path="$PROJECT_DIR$/spring-c0204/target/" />
+    <ignored path="$PROJECT_DIR$/spring-c0301/target/" />
+    <ignored path="$PROJECT_DIR$/spring-c0302/target/" />
+    <ignored path="$PROJECT_DIR$/spring-c0303/target/" />
+    <ignored path="$PROJECT_DIR$/spring-c0304/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,14 +115,115 @@
     <favorites_list name="jdk-basic" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="UniqueThing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/UniqueThing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.724138">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlankDisc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/main/java/com/soundsystem/BlankDisc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentConfigWithRequiredProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithRequiredProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentInjectionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentInjectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7924528">
+              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/main/resources/com/soundsystem/app.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="placeholder-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/resources/placeholder-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.965517">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnvironmentConfigWithDefaults.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithDefaults.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,25 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/responsibility/Handler.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/responsibility/ConcreteHandlerC.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/responsibility/ConcreteHandlerA.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/responsibility/ConcreteHandlerB.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/test/java/org/teng/practice/pattern/responsibility/HandlerTest.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/flyweight/Flyweight.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/flyweight/ConcreteFlyweight.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/flyweight/UnshardConcreteFlyweight.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/main/java/org/teng/practice/pattern/flyweight/FlyweightFactory.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/src/test/java/org/teng/practice/pattern/flyweight/FlyweightTest.java" />
-        <option value="$PROJECT_DIR$/pattern-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/reflect-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/basic-basic/src/test/java/org/teng/jdk/simple/exception/ExceptionProccessStepTest.java" />
-        <option value="$PROJECT_DIR$/basic-basic/src/main/java/org/teng/jdk/simple/exception/ExceptionProccessStep.java" />
-        <option value="$PROJECT_DIR$/basic-basic/src/test/java/org/teng/jdk/simple/reflect/ClassUtilsTest.java" />
-        <option value="$PROJECT_DIR$/spring-c01/src/main/java/sia/knight/KnightMain.java" />
-        <option value="$PROJECT_DIR$/spring-c01/src/main/java/sia/knight/config/KnightConfig.java" />
-        <option value="$PROJECT_DIR$/spring-c01/src/test/java/sia/knight/KnightConfig.java" />
-        <option value="$PROJECT_DIR$/spring-c01/pom.xml" />
         <option value="$PROJECT_DIR$/basic-basic/pom.xml" />
         <option value="$PROJECT_DIR$/spring-c01/src/main/java/sia/knights/config/SoundSystemConfig.java" />
         <option value="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/FakePrintStream.java" />
@@ -206,7 +265,6 @@
         <option value="$PROJECT_DIR$/spring-c01/src/test/java/sia/knights/BraveKnightTest.java" />
         <option value="$PROJECT_DIR$/spring-c0201/src/main/java/soundsystem/SgtPeppers.java" />
         <option value="$PROJECT_DIR$/spring-c0201/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CDPlayer.java" />
         <option value="$PROJECT_DIR$/spring-c0202/pom.xml" />
         <option value="$PROJECT_DIR$/spring-c0202/src/test/java/soundsystem/CDPlayerTest.java" />
@@ -228,6 +286,26 @@
         <option value="$PROJECT_DIR$/spring-c0203/README.md" />
         <option value="$PROJECT_DIR$/spring-c0204/README.md" />
         <option value="$PROJECT_DIR$/spring-c0201/README.md" />
+        <option value="$PROJECT_DIR$/spring-c0301/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/main/java/com/myapp/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/main/resources/datasource-config.xml" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DataSourceConfigTest.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest_XMLConfig.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest_XMLConfig.java" />
+        <option value="$PROJECT_DIR$/spring-c0301/README.md" />
+        <option value="$PROJECT_DIR$/spring-c0302/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-c0302/README.md" />
+        <option value="$PROJECT_DIR$/spring-c0302/src/test/java/com/habuma/restfun/MagicExistsTest.java" />
+        <option value="$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicExistsCondition.java" />
+        <option value="$PROJECT_DIR$/spring-c0303/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-c0303/README.md" />
+        <option value="$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/Notepad.java" />
+        <option value="$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ComponentScannedConfig.java" />
+        <option value="$PROJECT_DIR$/spring-c0304/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithRequiredProperties.java" />
       </list>
     </option>
   </component>
@@ -274,6 +352,9 @@
             <id>CodeSpring CoreSpring</id>
           </State>
           <State>
+            <id>SQL</id>
+          </State>
+          <State>
             <id>SetupSpring CoreSpring</id>
           </State>
           <State>
@@ -297,7 +378,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>XMLSpring CoreSpring</id>
+            <id>SqlNoDataSourceInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -353,6 +434,216 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0304" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0304" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0304" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0304" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0304" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="soundsystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0303" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0303" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0303" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdk-basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-c0303" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -401,11 +692,11 @@
       <recent name="org.teng.practice.pattern.mediator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\github\idea\jdk-basic\spring-c0204" />
-      <recent name="F:\github\idea\jdk-basic\spring-c0203" />
-      <recent name="F:\github\idea\jdk-basic\spring-c0202" />
-      <recent name="F:\github\idea\jdk-basic\spring-c0204\src\test\java\soundsystem" />
-      <recent name="F:\github\idea\jdk-basic\spring-c0204\src\test\resources\soundsystem" />
+      <recent name="F:\github\idea\jdk-basic\spring-c0304\src\test\resources" />
+      <recent name="F:\github\idea\jdk-basic\spring-c0304\src\main\resources\com\soundsystem" />
+      <recent name="F:\github\idea\jdk-basic\spring-c0304\src\test\java\com\soundsystem" />
+      <recent name="F:\github\idea\jdk-basic\spring-c0303\src\test\resources" />
+      <recent name="F:\github\idea\jdk-basic\spring-c0303\src\test\java\com\myapp" />
     </key>
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/CrawlScript/WebCollector.git" />
@@ -429,75 +720,26 @@
       <recent name="org.teng.practice.pattern.command" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soundsystem" />
+      <recent name="com.habuma.restfun" />
+      <recent name="profiles" />
+      <recent name="com.myapp" />
       <recent name="soundsystem.collections" />
-      <recent name="soundsystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CNamespaceValueTest">
-    <configuration default="false" name="ImportJavaConfigTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EnvironmentInjectionTest$InjectFromProperties">
+    <configuration default="false" name="ProductionDataSourceTest_XMLConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="soundsystem.*" />
+          <option name="PATTERN" value="profiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-c0203" />
+      <module name="spring-c0301" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="soundsystem.ImportJavaConfigTest" />
-      <option name="METHOD_NAME" value="play" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImportXmlConfigTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="soundsystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-c0203" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="soundsystem.ImportXmlConfigTest" />
-      <option name="METHOD_NAME" value="play" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CNamespaceReferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="soundsystem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-c0204" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="soundsystem.CNamespaceReferenceTest" />
+      <option name="PACKAGE_NAME" value="profiles" />
+      <option name="MAIN_CLASS_NAME" value="profiles.ProductionDataSourceTest_XMLConfig" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -512,19 +754,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CNamespaceReferenceTest.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MagicExistsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="soundsystem.*" />
+          <option name="PATTERN" value="com.habuma.restfun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-c0204" />
+      <module name="spring-c0302" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="soundsystem.CNamespaceReferenceTest" />
-      <option name="METHOD_NAME" value="play" />
+      <option name="PACKAGE_NAME" value="com.habuma.restfun" />
+      <option name="MAIN_CLASS_NAME" value="com.habuma.restfun.MagicExistsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MagicExistsTest.shouldNotBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.habuma.restfun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-c0302" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.habuma.restfun" />
+      <option name="MAIN_CLASS_NAME" value="com.habuma.restfun.MagicExistsTest" />
+      <option name="METHOD_NAME" value="shouldNotBeNull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -538,18 +806,44 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CNamespaceValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ScopedBeanTests$ComponentScannedScopedBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="soundsystem.*" />
+          <option name="PATTERN" value="com.myapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-c0204" />
+      <module name="spring-c0303" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="soundsystem" />
-      <option name="MAIN_CLASS_NAME" value="soundsystem.CNamespaceValueTest" />
+      <option name="PACKAGE_NAME" value="com.myapp" />
+      <option name="MAIN_CLASS_NAME" value="com.myapp.ScopedBeanTests$ComponentScannedScopedBeanTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="EnvironmentInjectionTest$InjectFromProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.soundsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-c0304" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.soundsystem" />
+      <option name="MAIN_CLASS_NAME" value="com.soundsystem.EnvironmentInjectionTest$InjectFromProperties" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -820,6 +1114,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Unknown" factoryName="Unknown">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -836,19 +1133,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ImportJavaConfigTest.play" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ImportXmlConfigTest.play" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CNamespaceReferenceTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CNamespaceReferenceTest.play" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CNamespaceValueTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ProductionDataSourceTest_XMLConfig" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MagicExistsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MagicExistsTest.shouldNotBeNull" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ScopedBeanTests$ComponentScannedScopedBeanTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EnvironmentInjectionTest$InjectFromProperties" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CNamespaceValueTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CNamespaceReferenceTest.play" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CNamespaceReferenceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ImportXmlConfigTest.play" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ImportJavaConfigTest.play" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EnvironmentInjectionTest$InjectFromProperties" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ScopedBeanTests$ComponentScannedScopedBeanTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MagicExistsTest.shouldNotBeNull" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MagicExistsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ProductionDataSourceTest_XMLConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +1181,7 @@
       <workItem from="1440482965428" duration="5520000" />
       <workItem from="1440491068650" duration="1507000" />
       <workItem from="1440493376569" duration="5838000" />
-      <workItem from="1440550655159" duration="13305000" />
+      <workItem from="1440550655159" duration="22297000" />
     </task>
     <task id="LOCAL-00001" summary=" 打断点">
       <created>1434278639328</created>
@@ -952,11 +1249,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440551161681</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit-添加spring-chapter2:bean配置&#10;">
+      <created>1440574629959</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1440574629959</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115288000" />
+    <option name="totallyTimeSpent" value="124280000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -969,27 +1272,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.4898287" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.503212" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32821077" sideWeight="0.5010707" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26234907" sideWeight="0.2280514" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3809001" sideWeight="0.13436832" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16327623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30406147" sideWeight="0.6536403" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26234907" sideWeight="0.77194864" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3809001" sideWeight="0.8656317" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930845" sideWeight="0.49785867" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31174535" sideWeight="0.6675589" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31174535" sideWeight="0.66488224" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26980728" sideWeight="0.66497463" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26980728" sideWeight="0.66497463" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2098501" sideWeight="0.33502537" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24924242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47727272" sideWeight="0.32818532" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39297476" sideWeight="0.48019272" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2766191" sideWeight="0.643469" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1024,7 +1327,8 @@
     <MESSAGE value="commit-添加职责链模式" />
     <MESSAGE value="commit-添加异常处理" />
     <MESSAGE value="commit-添加spring-chapter1:依赖注入&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit-添加spring-chapter1:依赖注入&#10;" />
+    <MESSAGE value="commit-添加spring-chapter2:bean配置&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit-添加spring-chapter2:bean配置&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1107,7 +1411,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="21" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1116,419 +1420,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0201/src/test/java/CDPlayerXMLConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0201/src/test/java/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/main/resources/META-INF/spring/app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.206897">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CDPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37664783">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CDPlayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/main/java/soundsystem/CompactDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2636535">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2259887">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5179283">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CDConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/SgtPeppers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/resources/cd-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.137931">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/CDPlayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/src/test/java/soundsystem/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31347963">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/soundsystem">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>soundsystem</OriginalElement>
-          <nodes>
-            <node x="250.99999999999994" y="0.0">soundsystem.CompactDisc</node>
-            <node x="0.0" y="114.0">soundsystem.BlankDisc</node>
-            <node x="427.49999999999994" y="342.0">soundsystem.CDPlayerConfig</node>
-            <node x="231.99999999999994" y="142.5">soundsystem.SgtPeppers</node>
-            <node x="781.25" y="142.5">soundsystem.ImportJavaConfigTest</node>
-            <node x="1477.25" y="142.5">soundsystem.CDPlayerTest</node>
-            <node x="1053.75" y="0.0">soundsystem.MediaPlayer</node>
-            <node x="142.5" y="342.0">soundsystem.CDConfig</node>
-            <node x="0.0" y="451.0">soundsystem.SoundSystemConfig</node>
-            <node x="1129.25" y="142.5">soundsystem.ImportXmlConfigTest</node>
-            <node x="545.25" y="142.0">soundsystem.CDPlayer</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="soundsystem.CDPlayerTest" target="soundsystem.MediaPlayer">
-              <point x="0.0" y="-60.5" />
-              <point x="1641.25" y="84.0" />
-              <point x="1168.375" y="84.0" />
-              <point x="49.125" y="32.0" />
-            </edge>
-            <edge source="soundsystem.CDConfig" target="soundsystem.SgtPeppers">
-              <point x="0.0" y="-32.0" />
-              <point x="-43.0" y="60.5" />
-            </edge>
-            <edge source="soundsystem.ImportXmlConfigTest" target="soundsystem.MediaPlayer">
-              <point x="0.0" y="-60.5" />
-              <point x="1293.25" y="94.0" />
-              <point x="1135.625" y="94.0" />
-              <point x="16.375" y="32.0" />
-            </edge>
-            <edge source="soundsystem.BlankDisc" target="soundsystem.CompactDisc">
-              <point x="0.0" y="-89.0" />
-              <point x="106.0" y="94.0" />
-              <point x="273.33333333333326" y="94.0" />
-              <point x="-44.666666666666686" y="32.0" />
-            </edge>
-            <edge source="soundsystem.CDPlayer" target="soundsystem.CompactDisc">
-              <point x="-54.0" y="-61.0" />
-              <point x="599.25" y="94.0" />
-              <point x="362.66666666666663" y="94.0" />
-              <point x="44.666666666666686" y="32.0" />
-            </edge>
-            <edge source="soundsystem.CDPlayerConfig" target="soundsystem.CDPlayer">
-              <point x="75.25" y="-32.0" />
-              <point x="0.0" y="61.0" />
-            </edge>
-            <edge source="soundsystem.CDPlayer" target="soundsystem.MediaPlayer">
-              <point x="54.0" y="-61.0" />
-              <point x="707.25" y="84.0" />
-              <point x="1070.125" y="84.0" />
-              <point x="-49.125" y="32.0" />
-            </edge>
-            <edge source="soundsystem.CDPlayerConfig" target="soundsystem.SgtPeppers">
-              <point x="-75.25" y="-32.0" />
-              <point x="502.74999999999994" y="317.0" />
-              <point x="360.99999999999994" y="317.0" />
-              <point x="43.0" y="60.5" />
-            </edge>
-            <edge source="soundsystem.ImportJavaConfigTest" target="soundsystem.MediaPlayer">
-              <point x="0.0" y="-60.5" />
-              <point x="945.25" y="94.0" />
-              <point x="1102.875" y="94.0" />
-              <point x="-16.375" y="32.0" />
-            </edge>
-            <edge source="soundsystem.SgtPeppers" target="soundsystem.CompactDisc">
-              <point x="0.0" y="-60.5" />
-              <point x="0.0" y="32.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="59.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/resources/cdplayer-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.137931">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/main/java/soundsystem/SoundSystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/test/java/soundsystem/ImportJavaConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/src/test/java/soundsystem/ImportXmlConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39408866">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7586207">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/collections/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/PNamespaceWithUtilNamespaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6865204">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31347963">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/properties/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/properties/CDPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CDPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CDPlayerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/CompactDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/main/java/soundsystem/SgtPeppers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/CNamespaceReferenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15673982">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/CNamespaceValueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0202/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4285715">
-          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0203/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16583748">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0204/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26533997">
-          <caret line="8" column="117" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-c0201/README.md">
-      <provider editor-type-id="markdown-preview-editor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09950249">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-c0204/src/test/java/soundsystem/ConstructorArgCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1613,6 +1504,358 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42692938">
           <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0204/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42692938">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.4827585">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.192">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.90909094">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <marker date="1415241184000" expanded="true" signature="-1:-1" placeholder="create table..Things..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/main/resources/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/main/java/com/myapp/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1440587114958" expanded="true" signature="-1:-1" placeholder="select id, n..Things..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DevDataSourceTest_XMLConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1440587344280" expanded="true" signature="-1:-1" placeholder="select id, n..Things..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/java/profiles/DataSourceConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="3" selection-start-line="81" selection-start-column="1" selection-end-line="93" selection-end-column="3" />
+          <folding>
+            <marker date="1440587046421" expanded="true" signature="-1:-1" placeholder="select id, n..Things..." />
+            <marker date="1440587046421" expanded="true" signature="-1:-1" placeholder="select id, n..Things..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/test/java/profiles/ProductionDataSourceTest_XMLConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/src/main/resources/datasource-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.413794">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/README.md">
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.285714">
+          <caret line="11" column="92" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0301/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.275862">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/README.md">
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19017433">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Documents and Settings/Administrator/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3773584">
+          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/src/test/java/com/habuma/restfun/MagicExistsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49056605">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#678#679#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicExistsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33962265">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3018868">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/src/main/java/com/habuma/restfun/MagicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18867925">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0302/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5189621">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/README.md">
+      <provider editor-type-id="markdown-preview-editor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.285714">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ExplicitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ScopedBeanTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/test/java/com/myapp/ComponentScannedConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/Notepad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/main/resources/scoped-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5172415">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/src/main/java/com/myapp/UniqueThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0303/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5189621">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.724138">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/main/java/com/soundsystem/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/main/resources/com/soundsystem/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/resources/placeholder-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.965517">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithDefaults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentConfigWithRequiredProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-c0304/src/test/java/com/soundsystem/EnvironmentInjectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7924528">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
         </state>
       </provider>
