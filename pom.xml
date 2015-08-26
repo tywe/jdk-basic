@@ -15,6 +15,10 @@
         <module>network-basic</module>
         <module>pattern-basic</module>
         <module>spring-c01</module>
+        <module>spring-c0201</module>
+        <module>spring-c0202</module>
+        <module>spring-c0203</module>
+        <module>spring-c0204</module>
     </modules>
 
     <build>
@@ -115,6 +119,12 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
+            <version>1.12.0</version>
         </dependency>
 
     </dependencies>

@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/pattern-basic/pattern-basic.iml" filepath="$PROJECT_DIR$/pattern-basic/pattern-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect-basic/reflect-basic.iml" filepath="$PROJECT_DIR$/reflect-basic/reflect-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-c01/spring-c01.iml" filepath="$PROJECT_DIR$/spring-c01/spring-c01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-c0201/spring-c0201.iml" filepath="$PROJECT_DIR$/spring-c0201/spring-c0201.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-c0202/spring-c0202.iml" filepath="$PROJECT_DIR$/spring-c0202/spring-c0202.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-c0203/spring-c0203.iml" filepath="$PROJECT_DIR$/spring-c0203/spring-c0203.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-c0204/spring-c0204.iml" filepath="$PROJECT_DIR$/spring-c0204/spring-c0204.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-basic/thread-basic.iml" filepath="$PROJECT_DIR$/thread-basic/thread-basic.iml" />
     </modules>
   </component>

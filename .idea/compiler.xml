@@ -58,6 +58,34 @@
         <processorPath useClasspath="true" />
         <module name="spring-c01" />
       </profile>
+      <profile default="false" name="Annotation profile for spring-c0201" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0201" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0202" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0202" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0203" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0203" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0204" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0204" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-basic" target="1.7" />
@@ -67,6 +95,10 @@
       <module name="pattern-basic" target="1.7" />
       <module name="reflect-basic" target="1.7" />
       <module name="spring-c01" target="1.7" />
+      <module name="spring-c0201" target="1.7" />
+      <module name="spring-c0202" target="1.7" />
+      <module name="spring-c0203" target="1.7" />
+      <module name="spring-c0204" target="1.7" />
       <module name="thread-basic" target="1.7" />
     </bytecodeTargetLevel>
   </component>
