@@ -23,6 +23,7 @@
         <module>spring-c0302</module>
         <module>spring-c0303</module>
         <module>spring-c0304</module>
+        <module>spring-c04</module>
     </modules>
 
     <build>
@@ -66,6 +67,13 @@
             <artifactId>spring-context</artifactId>
             <version>${spring-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -85,6 +93,11 @@
             <version>1.4.187</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.2.0.Final</version>
+        </dependency>
         <!--服务器依赖配置-->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
@@ -92,6 +105,32 @@
             <version>7.0.54</version>
             <scope>provided</scope>
         </dependency>
+
+        <!--web依赖-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
 
         <!--日志依赖配置-->
         <dependency>
@@ -118,6 +157,12 @@
             <version>18.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+
         <!--测试依赖-->
         <dependency>
             <groupId>org.mockito</groupId>
@@ -142,6 +187,18 @@
             <groupId>com.github.stefanbirkner</groupId>
             <artifactId>system-rules</artifactId>
             <version>1.12.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit-dep</artifactId>
+            <version>4.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-library</artifactId>
+            <version>1.3</version>
         </dependency>
 
     </dependencies>
