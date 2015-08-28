@@ -121,6 +121,152 @@
         <processorPath useClasspath="true" />
         <module name="spring-c04" />
       </profile>
+      <profile default="false" name="Annotation profile for spring-c0601" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0601" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0501" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0501" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0602" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0602" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0603" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0603" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0701" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0701" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0801" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0801" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c0901" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c0901" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1001" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1001" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1101" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1101" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1102" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1102" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1103" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1103" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1201" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1201" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1202" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1202" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1203" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1203" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1301" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1301" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1701" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1701" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1702" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1702" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1801" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1801" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1802" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1802" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c1803" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-c1803" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-c2101" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-basic" target="1.7" />
@@ -139,6 +285,27 @@
       <module name="spring-c0303" target="1.7" />
       <module name="spring-c0304" target="1.7" />
       <module name="spring-c04" target="1.7" />
+      <module name="spring-c0501" target="1.7" />
+      <module name="spring-c0601" target="1.7" />
+      <module name="spring-c0602" target="1.7" />
+      <module name="spring-c0603" target="1.7" />
+      <module name="spring-c0701" target="1.7" />
+      <module name="spring-c0801" target="1.7" />
+      <module name="spring-c0901" target="1.7" />
+      <module name="spring-c1001" target="1.7" />
+      <module name="spring-c1101" target="1.7" />
+      <module name="spring-c1102" target="1.7" />
+      <module name="spring-c1103" target="1.7" />
+      <module name="spring-c1201" target="1.7" />
+      <module name="spring-c1202" target="1.7" />
+      <module name="spring-c1203" target="1.7" />
+      <module name="spring-c1301" target="1.7" />
+      <module name="spring-c1701" target="1.7" />
+      <module name="spring-c1702" target="1.7" />
+      <module name="spring-c1801" target="1.7" />
+      <module name="spring-c1802" target="1.7" />
+      <module name="spring-c1803" target="1.7" />
+      <module name="spring-c2101" target="1.7" />
       <module name="thread-basic" target="1.7" />
     </bytecodeTargetLevel>
   </component>
