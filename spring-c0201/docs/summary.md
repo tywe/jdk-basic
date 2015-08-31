@@ -10,21 +10,20 @@ public class CDPlayerConfig {
 
 ##xml配置自动扫描bean
 
- <context:component-scan base-package="soundsystem"/>
+###自动包扫描配置：
+\<context:component-scan base-package="soundsystem"/\>
 
+###bean注解:
 @Component
 public class CDPlayer implements MediaPlayer {
     private CompactDisc cd;
-
     @Autowired
     public CDPlayer(CompactDisc cd) {
         this.cd = cd;
     }
-
     public void play() {
         cd.play();
     }
-
 }
 
 非抽象类标注@Component注解，接口和抽象类不需要？？待确定？？
