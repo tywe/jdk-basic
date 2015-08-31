@@ -3,6 +3,7 @@ import org.junit.Test;
 import org.junit.contrib.java.lang.system.StandardOutputStreamLog;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import soundsystem.CDPlayerConfig;
@@ -23,10 +24,12 @@ public class CDPlayerTest {
     @Rule
     public final StandardOutputStreamLog log = new StandardOutputStreamLog();
 
-    @Autowired
+    @Autowired(required = false)
+    @Qualifier("CDPlayer")
     private MediaPlayer player;
 
-    @Autowired
+    @Autowired(required = true)
+    @Qualifier("sgtPeppers")
     private CompactDisc cd;
 
     @Test
