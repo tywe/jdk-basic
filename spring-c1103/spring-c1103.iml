@@ -10,7 +10,10 @@
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="sessionFactory" value="dataSource" />
+          <unit-entry name="sessionFactoryBean" />
+        </datasource-map>
         <naming-strategy-map />
       </configuration>
     </facet>

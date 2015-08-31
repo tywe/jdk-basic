@@ -276,6 +276,7 @@
       <module name="pattern-basic" target="1.7" />
       <module name="reflect-basic" target="1.7" />
       <module name="spring-c01" target="1.7" />
+      <module name="spring-c0101" target="1.7" />
       <module name="spring-c0201" target="1.7" />
       <module name="spring-c0202" target="1.7" />
       <module name="spring-c0203" target="1.7" />

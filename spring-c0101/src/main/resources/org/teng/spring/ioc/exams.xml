@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="student" class="org.teng.spring.ioc.Student">
+        <constructor-arg value="baichuan"/>
+        <constructor-arg value="20"/>
+    </bean>
+
+    <bean id="course" class="org.teng.spring.ioc.Course">
+        <constructor-arg value="ds"/>
+        <constructor-arg value="100"/>
+    </bean>
+
+    <bean id="teacher" class="org.teng.spring.ioc.Teacher">
+        <constructor-arg value="王老师"/>
+    </bean>
+
+    <bean id="exams" class="org.teng.spring.ioc.Exams">
+        <constructor-arg ref="student"/>
+        <constructor-arg ref="course"/>
+    </bean>
+
+    <aop:config>
+        <aop:aspect ref="teacher">
+            <aop:pointcut id="exam" expression="execution(* *.exam(..))"/>
+            <aop:before pointcut-ref="exam" method="distributePapers"/>
+            <aop:after pointcut-ref="exam" method="collectPapers"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
