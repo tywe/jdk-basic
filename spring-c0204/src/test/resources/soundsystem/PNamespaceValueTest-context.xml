@@ -31,4 +31,5 @@
           class="soundsystem.properties.CDPlayer"
           p:compactDisc-ref="compactDisc"/>
 
+
 </beans>

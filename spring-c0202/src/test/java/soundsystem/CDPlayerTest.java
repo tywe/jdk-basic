@@ -17,7 +17,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = CDPlayerConfig.class)
 public class CDPlayerTest {
-
     @Rule
     public final StandardOutputStreamLog log = new StandardOutputStreamLog();
 

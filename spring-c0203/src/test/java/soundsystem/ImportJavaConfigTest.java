@@ -14,6 +14,9 @@ import static org.junit.Assert.assertEquals;
  * setero-mixedConfig
  * xml和java混合配置applicationContext beans
  * 在xml中导入java配置
+ * classpath与classpath*区别：
+ * classpath只加载类路径下第一个找到的资源文件；
+ * classpath*会加载类路径下找到的所有配置文件
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:cdplayer-config.xml")
