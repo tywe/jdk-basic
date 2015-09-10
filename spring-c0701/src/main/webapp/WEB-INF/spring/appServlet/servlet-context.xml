@@ -12,7 +12,10 @@
 
     <annotation-driven/>
 
-    <context:component-scan base-package="spitter"/>
+    <context:component-scan base-package="spittr">
+        <!--<context:exclude-filter type="custom" expression="spittr.web"/>-->
+    </context:component-scan>
+
 
     <beans:bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">

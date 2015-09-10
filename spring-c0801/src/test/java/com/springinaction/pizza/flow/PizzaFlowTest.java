@@ -22,7 +22,6 @@ public class PizzaFlowTest extends AbstractXmlFlowExecutionTests {
         return resourceFactory.createResource("file:src/main/webapp/WEB-INF/flows/pizza/pizza-flow.xml");
     }
 
-
     protected void configureFlowBuilderContext(MockFlowBuilderContext builderContext) {
 
         PizzaFlowActions pizzaFlowActions = mock(PizzaFlowActions.class);
@@ -34,7 +33,6 @@ public class PizzaFlowTest extends AbstractXmlFlowExecutionTests {
 
         builderContext.registerBean("pizzaFlowActions", pizzaFlowActions);
     }
-
 
     public void testStartPizzaFlow() {
         startFlow(new MockExternalContext());

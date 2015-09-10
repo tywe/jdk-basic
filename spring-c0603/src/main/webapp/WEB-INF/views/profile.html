@@ -4,7 +4,8 @@
     <title>Spitter</title>
     <link rel="stylesheet"
           type="text/css"
-          th:href="@{/resources/style.css}"></link>
+          th:href="@{/resources/style.css}">
+    </link>
 </head>
 <body>
 <div id="header" th:include="page :: header"></div>
@@ -12,7 +13,8 @@
 <div id="content">
     <h1>Your Profile</h1>
     <span th:text="${spitter.username}">username</span><br/>
-    <span th:text="${spitter.firstName}">First</span> <span th:text="${spitter.lastName}">Last</span><br/>
+    <span th:text="${spitter.firstName}">First</span>
+    <span th:text="${spitter.lastName}">Last</span><br/>
     <span th:text="${spitter.email}">email</span>
 </div>
 

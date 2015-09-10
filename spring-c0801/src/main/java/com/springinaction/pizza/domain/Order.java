@@ -1,5 +1,7 @@
 package com.springinaction.pizza.domain;
 
+import com.springinaction.pizza.service.PricingEngine;
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.beans.factory.annotation.Configurable;
 
 import java.io.Serializable;
@@ -9,6 +11,7 @@ import java.util.List;
 @Configurable("order")
 public class Order implements Serializable {
     private static final long serialVersionUID = 1L;
+    @NotBlank
     private Customer customer;
     private List<Pizza> pizzas;
     private Payment payment;
@@ -50,9 +53,10 @@ public class Order implements Serializable {
         this.payment = payment;
     }
 
-//   // injected
-//   private PricingEngine pricingEngine;
-//   public void setPricingEngine(PricingEngine pricingEngine) {
-//      this.pricingEngine = pricingEngine;
-//   }
+    // injected
+    private PricingEngine pricingEngine;
+
+    public void setPricingEngine(PricingEngine pricingEngine) {
+        this.pricingEngine = pricingEngine;
+    }
 }

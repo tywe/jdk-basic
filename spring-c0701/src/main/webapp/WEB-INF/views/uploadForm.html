@@ -4,7 +4,8 @@
     <title>Spitter</title>
     <link rel="stylesheet"
           type="text/css"
-          th:href="@{/resources/style.css}"></link>
+          th:href="@{/resources/style.css}">
+    </link>
 </head>
 <body>
 <div id="header" th:include="page :: header"></div>
@@ -13,8 +14,9 @@
     <h1>Welcome to Spitter</h1>
 
     <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="file"></input><br/>
-        <input type="submit"></input>
+        <input type="file" name="file"/>
+        <br/>
+        <input type="submit">submit</input>
     </form>
 
 </div>
