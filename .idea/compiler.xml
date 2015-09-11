@@ -274,6 +274,13 @@
         <processorPath useClasspath="true" />
         <module name="spring-c0101" />
       </profile>
+      <profile default="false" name="Annotation profile for websocket-test" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="websocket-test" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basic-basic" target="1.7" />
@@ -315,6 +322,7 @@
       <module name="spring-c1803" target="1.7" />
       <module name="spring-c2101" target="1.7" />
       <module name="thread-basic" target="1.7" />
+      <module name="websocket-test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
